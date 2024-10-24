@@ -11,16 +11,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #D1D1D1;
-}
-
-main {
-    padding: 4rem;
+    color: #FFF;
 }
 
 .primeira {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
 }
 
 .primeira p {
@@ -39,6 +37,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #FFF;
 }
 
 .segunda p {
@@ -49,5 +48,19 @@ main {
 .segunda img {
     height: 10rem;
     width: 10rem;
+    margin-bottom: 3rem;
+}
+
+.terceira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+}
+
+.terceira img {
+    width: 6rem;
+    height: 6rem;
+    margin: 3rem;
 }
 
