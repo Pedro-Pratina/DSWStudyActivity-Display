@@ -14,9 +14,13 @@ header {
     color: #D1D1D1;
 }
 
+main {
+    padding: 4rem;
+}
+
 .primeira {
     display: flex;
-    padding: 3rem;
+    justify-content: space-between;
 }
 
 .primeira p {
@@ -26,5 +30,24 @@ header {
 .primeira img {
     width: 10rem;
     height: auto;
+}
+
+.segunda {
+    background-color: #FF00FF;
+    height: 20rem;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.segunda p {
+    max-width: 20rem;
+    margin: 8rem;
+}
+
+.segunda img {
+    height: 10rem;
+    width: 10rem;
 }
 
