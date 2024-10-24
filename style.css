@@ -14,3 +14,17 @@ header {
     color: #D1D1D1;
 }
 
+.primeira {
+    display: flex;
+    padding: 3rem;
+}
+
+.primeira p {
+    width: 40rem;
+}
+
+.primeira img {
+    width: 10rem;
+    height: auto;
+}
+
